@@ -11,11 +11,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        body: Center(
+          child: Text('Ini Tulisan Deskripsi'),
         appBar: AppBar(
           title: const Text('Judul'),
         ),
-        body: const Center(
-          child: Text('Hello World!'),
         ),
       ),
     );
